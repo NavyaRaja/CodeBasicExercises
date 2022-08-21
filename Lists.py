@@ -35,6 +35,12 @@ print ("Expenses by the end of june are : ",expenses)
 expenses[3] = expenses[3]-200
 print (" Expenses after $200 returned in April are :",expenses)
 
+#output:
+#Extra dollars spent in Feb compared to jan is :  150
+#Total expense in the first quarter of the year is : 7150
+ #if you spent exact 2000 dollars in any month : False
+#Expenses by the end of june are :  [2200, 2350, 2600, 2130, 2190, 1980]
+ #Expenses after $200 returned in April are : [2200, 2350, 2600, 1930, 2190, 1980]
 
 # # 2.You have a list of your favourite marvel super heros.
 # heros=['spider man','thor','hulk','iron man','captain america']
@@ -68,3 +74,8 @@ print('New heros list is : ',heros)
 heros.sort()
 print(heros)
 
+#output:
+#New heros list is :  ['spider man', 'thor', 'hulk', 'iron man', 'captain america', 'black panther']
+#New heros list is :  ['spider man', 'thor', 'hulk', 'black panther', 'iron man', 'captain america']
+#New heros list is :  ['spider man', 'doctor strange', 'black panther', 'iron man', 'captain america']
+#['black panther', 'captain america', 'doctor strange', 'iron man', 'spider man']
